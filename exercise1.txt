@@ -1,0 +1,5 @@
+#setup:
+git init in depository exercises
+touch exercise1.txt
+git add *.txt
+git commit -m *.txt
