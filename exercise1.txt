@@ -5,4 +5,6 @@ git add *.txt
 git commit -m *.txt
 
 git add exercise2.txt
-git commit -m exercise*.txt
+git commit -m exercise2.txt
+git add exercise1.txt
+git commit -m exercise1.txt
