@@ -10,3 +10,9 @@ git add exercise1.txt
 git commit -m exercise1.txt
 
 git push exercises.git master
+
+git add exercise3.txt
+git commit -m exercise*.txt
+git push exercises.git master
+
+
