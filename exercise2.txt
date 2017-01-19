@@ -1,0 +1,17 @@
+NF1:
+	afspraak( [staffNo],[patientNo], dentistName, patientName, appointment date, time, surgeryNo)
+	
+NF2:
+	docter( [staffNo], dentistName)
+	patient( [patientNo], patientName)
+	afspraak([afspraakNo], [staffNo], [patientNo], appointment date, time, surgeryNo)
+	
+NF3:
+	docter( [staffNo], dentistName)
+	patient( [patientNo], patientName)
+	datum( [afspraakNo], [staffNo], [patientNo], appointment date)
+	operatie([afspraakNo],time, surgeryNo)
+	
+BCNF:
+	idem NF3
+	
