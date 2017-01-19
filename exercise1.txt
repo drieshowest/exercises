@@ -3,3 +3,6 @@ git init in depository exercises
 touch exercise1.txt
 git add *.txt
 git commit -m *.txt
+
+git add exercise2.txt
+git commit -m exercise*.txt
