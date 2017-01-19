@@ -1,0 +1,17 @@
+1NF:
+	patient([patientNo], fullName,bedNo, wardNo, wardName)
+	drug([drugNo], name, description, dosage, methodOfAdmin, unitsPerDay, startDate, finishDate)
+2NF:
+	patient([patientNo], fullName, wardNo)
+	ward( [wardNo], wardName, bedNo)
+	drug([drugNo], name, description, dosage, methodOfAdmin)
+	patientdrug ([patientNo],[drugNo], unitsPerDay,  startDate, finishDate)
+
+3NF:
+	patient([patientNo], fullName, wardNo)
+	ward( [wardNo], wardName, bedNo)
+	drug([drugNo], name, description, dosage, methodOfAdmin)
+	date([patientNo],[drugNo], [startDate], unitsPerDay finishDate)
+	
+BCNF:
+	idem
