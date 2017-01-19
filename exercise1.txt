@@ -8,3 +8,5 @@ git add exercise2.txt
 git commit -m exercise2.txt
 git add exercise1.txt
 git commit -m exercise1.txt
+
+git push exercises.git master
